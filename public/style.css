@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  grid-template-columns: 1, 1, 1, 1;
+  grid-template-rows: 1, 1, 1, 1;
+}
+
+#root {
+  display: grid;
+  grid-column: 4;
+  grid-row: 1;
+}
+
+
+#image-carousel {
+  grid-column: 1, 2, 3;
+  grid-row: 1;
+}
+
+
+#service {
+  grid-row: 2;
+}
